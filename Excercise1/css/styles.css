@@ -1,0 +1,190 @@
+body {
+  background-color: hsl(36, 100%, 99%);
+  margin: 0px;
+  padding: 25px 125px 100px 125px;
+  position: relative;
+}
+
+header {
+  background-color: hsl(36, 100%, 99%);
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.header-links {
+  color: hsl(236, 13%, 42%);
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  padding: 30px 0px;
+}
+
+.header-link {
+  margin: 10px 0px 10px 40px;
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+h2 {
+  color: hsl(35, 77%, 62%);
+  font-family: 'Inter', sans-serif;
+  font-size: 40px;
+}
+
+h3{
+  color: hsl(36, 100%, 99%);
+  font-family: 'Inter', sans-serif;
+}
+
+.black-background {
+  color: hsl(233, 8%, 79%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.white-background {
+  color: hsl(236, 13%, 42%);
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+
+.title {
+  width: 10%;
+  padding: 10px;
+}
+
+.top-container {
+  position: relative;
+}
+
+.right-main-container {
+  width: 33.33%;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-color:hsl(240, 100%, 5%)
+}
+
+.right-main {
+  padding: 5px 25px 25px 25px;
+}
+
+.left-main {
+  width: 66.33%;
+  position: relative;
+  height: 100%;
+  margin-right:30px
+}
+
+.main-photo {
+  width: 95%;
+}
+
+.lower-title {
+  width: 45%;
+  font-size: 60px;
+  margin-left: 0px;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.information {
+  position: absolute;
+  left: 50%;
+  width: 45%;
+  top: 0;
+}
+
+p {
+  line-height: 1.5;
+}
+
+hr {
+  border-top: 1px solid;
+  border-bottom: 0px;
+  color: hsl(233, 8%, 79%);
+}
+
+.btn-container {
+  position: relative;
+}
+
+.bottom-container {
+  height: 200px;
+  position: relative;
+  margin-top: 50px;
+}
+
+.bottom-pic {
+  height: 100%;
+}
+
+.bottom-info {
+  position: relative;
+  height: 100%;
+  width: 33.33%;
+  float: left;
+}
+
+.bottom-text {
+  position: absolute;
+  left: 40%;
+  top: 0;
+  padding: 0px 25px;
+}
+
+h4 {
+  font-family: 'Inter', sans-serif;
+  color:hsl(233, 8%, 79%);
+  font-size: 30px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h5 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(240, 100%, 5%);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.btn {
+  position: absolute;
+  bottom: 0px;
+  left: 50.3%;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, hsl(5, 85%, 63%), hsl(5, 85%, 63%));
+  background-image: -moz-linear-gradient(top, hsl(5, 85%, 63%), hsl(5, 85%, 63%));
+  background-image: -ms-linear-gradient(top, hsl(5, 85%, 63%), hsl(5, 85%, 63%));
+  background-image: -o-linear-gradient(top, hsl(5, 85%, 63%), hsl(5, 85%, 63%));
+  background-image: linear-gradient(to bottom,hsl(5, 85%, 63%),hsl(5, 85%, 63%));
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Inter', sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 30px 10px 30px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
